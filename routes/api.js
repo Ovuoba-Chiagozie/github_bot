@@ -1,7 +1,7 @@
 const express = require('express')
 const route = express.Router()
-const uploadFile = require('../controllers/upload')
+const pushToGitHub = require('../controllers/upload')
 
-route.get('/upload', uploadFile)
+route.post('/upload', pushToGitHub)
 
 module.exports = route
