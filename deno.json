@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "denon run -A app.ts"
+  },
+  "imports": {
+    "axios": "https://esm.sh/axios@1.6.2",
+    "load": "https://deno.land/std@0.209.0/dotenv/mod.ts",
+    "path": "https://deno.land/std@0.209.0/path/mod.ts",
+    "glob": "https://esm.sh/glob@10.3.10"
+  }
+}
